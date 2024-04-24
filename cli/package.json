@@ -1,6 +1,6 @@
 {
   "name": "react-native-fps-cli",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "FPS-based RN app performance measurement tool",
   "repository": "https://github.com/WayneKim92/react-native-fps",
   "author": "WayneKim92",
