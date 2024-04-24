@@ -1,9 +1,9 @@
-import fs from 'fs';
+import { __DEV__ } from "./consts";
 
 export const getScriptRunDirectoryPath = () => {
     let cwd = process.cwd();
 
-    if (fs.existsSync('./in-development-environment')) {
+    if (__DEV__) {
         cwd = cwd + '/example';
     }
 
