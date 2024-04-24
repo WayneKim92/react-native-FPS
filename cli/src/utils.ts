@@ -5,6 +5,7 @@ export const getScriptRunDirectoryPath = () => {
 
     if (__DEV__) {
         cwd = cwd + '/example';
+        console.log('🐞', cwd)
     }
 
     return cwd;
