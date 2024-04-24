@@ -1,8 +1,8 @@
 import chalk from "chalk";
+import { getScriptRunDirectoryPath } from "./utils";
 
 export const init = async () => {
-    console.log('🐞init! ');
-
+    getScriptRunDirectoryPath();
     // react-native-fps 폴더 유무 확인 없으면 생성
 
     // 폴더가 없으면 폴더를 생성한다.

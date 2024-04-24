@@ -1,0 +1,2 @@
+This file was created because it was cumbersome to distribute and test every time.
+If this file exists, it will be recognized as a development environment and a config for using react-native-fps will be added to the example folder.
