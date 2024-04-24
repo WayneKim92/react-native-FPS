@@ -9,3 +9,8 @@ export const getScriptRunDirectoryPath = () => {
 
     return cwd;
 }
+
+export const logWithDelays = async (message: string, delay: number) => {
+    await new Promise((resolve) => setTimeout(resolve, delay));
+    console.log(message);
+}
