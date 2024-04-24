@@ -231,3 +231,4 @@ fabric.properties
 # End of https://www.toptal.com/developers/gitignore/api/webstorm+all,node
 
 dist
+cli/example/react-native-fps/config.json
