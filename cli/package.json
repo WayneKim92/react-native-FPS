@@ -1,6 +1,6 @@
 {
   "name": "react-native-fps-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "FPS-based RN app performance measurement tool",
   "repository": "https://github.com/WayneKim92/react-native-fps",
   "author": "WayneKim92",
@@ -12,9 +12,7 @@
     "clean-npx-cache": "npx clear-npx-cache",
     "deploy": "npm run build && npm publish"
   },
-  "bin": {
-    "cli": "dist/index.js"
-  },
+  "bin": "dist/index.js",
   "devDependencies": {
     "@types/node": "^20.12.7",
     "ts-node": "^10.9.2",
